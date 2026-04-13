@@ -1,5 +1,6 @@
 
 
+using DemoQA_Automation.Utitlities;
 using OpenQA.Selenium;
 
 namespace DemoQA_Automation.Pages;
@@ -21,7 +22,7 @@ public class BasePage
     }
     protected void Type(By by, string text)
     {
-        var element = _driver.FindElement(by);
+        var element = WaitHelper.WaitForElement(_driver, by);
         element.Clear();
         element.SendKeys(text);
     }
