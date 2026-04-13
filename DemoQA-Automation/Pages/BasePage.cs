@@ -21,6 +21,8 @@ public class BasePage
     }
     protected void Type(By by, string text)
     {
-        _driver.FindElement(by).SendKeys(text);
+        var element = _driver.FindElement(by);
+        element.Clear();
+        element.SendKeys(text);
     }
 }

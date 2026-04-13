@@ -14,6 +14,6 @@ public class BaseTest : IDisposable
 
     public void Dispose()
     {
-        Driver.Quit();
+        //Driver.Quit();
     }
 }

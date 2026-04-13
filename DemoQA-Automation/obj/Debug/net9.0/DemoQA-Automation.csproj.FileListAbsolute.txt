@@ -101,3 +101,4 @@
 /home/momin-sheikh/Projects/DemoQA-Automation/DemoQA-Automation/obj/Debug/net9.0/DemoQA-Automation.pdb
 /home/momin-sheikh/Projects/DemoQA-Automation/DemoQA-Automation/obj/Debug/net9.0/DemoQA-Automation.genruntimeconfig.cache
 /home/momin-sheikh/Projects/DemoQA-Automation/DemoQA-Automation/obj/Debug/net9.0/ref/DemoQA-Automation.dll
+/home/momin-sheikh/Projects/DemoQA-Automation/DemoQA-Automation/obj/Debug/net9.0/DemoQA-Automation.sourcelink.json
