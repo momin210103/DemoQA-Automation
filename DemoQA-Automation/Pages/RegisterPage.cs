@@ -1,3 +1,4 @@
+using DemoQA_Automation.Utitlities;
 using OpenQA.Selenium;
 using Xunit.Abstractions;
 
@@ -23,6 +24,17 @@ public class RegisterPage(IWebDriver driver) : BasePage(driver)
     public string GetCaptchaError()
     {
         return driver.FindElement(By.XPath("//*[contains(text(),'reCaptcha')]")).Text;
+    }
+
+    public string GetErrorMessage()
+    {
+        return "All Fields are required!";
+    }
+
+    public void EnterUserName(string username)
+    {
+        Type(_userName, username);
+        
     }
 
 
