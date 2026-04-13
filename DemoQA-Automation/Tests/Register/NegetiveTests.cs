@@ -17,5 +17,7 @@ public class NegetiveTests : BaseTest
         var error = register.GetErrorMessage();
         error.ToLower().Should().Contain("required!");
     }
+
+   
     
 }
